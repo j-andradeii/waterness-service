@@ -10,6 +10,7 @@ use Symfony\Component\Routing\Attribute\Route;
 class ApiController extends AbstractController
 {
 
+
     #[Route('/api/resource/', name: "api_resource", methods: ['GET', 'HEAD'])]
     public function getResource(): JsonResponse
     {
